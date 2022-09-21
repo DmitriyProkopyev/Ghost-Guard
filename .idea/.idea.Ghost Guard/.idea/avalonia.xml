@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AvaloniaProject">
+    <option name="projectPerEditor">
+      <map>
+        <entry key="Ghost Guard/App.axaml" value="Ghost Guard/Ghost Guard.csproj" />
+        <entry key="Ghost Guard/Views/CreationWindow.axaml" value="Ghost Guard/Ghost Guard.csproj" />
+        <entry key="Ghost Guard/Views/Input/NameInputPanel.axaml" value="Ghost Guard/Ghost Guard.csproj" />
+        <entry key="Ghost Guard/Views/Input/PasswordInputPanel.axaml" value="Ghost Guard/Ghost Guard.csproj" />
+        <entry key="Ghost Guard/Views/InputPanel.axaml" value="Ghost Guard/Ghost Guard.csproj" />
+        <entry key="Ghost Guard/Views/MainPanels/CreationWindow.axaml" value="Ghost Guard/Ghost Guard.csproj" />
+        <entry key="Ghost Guard/Views/MainPanels/MainWindow.axaml" value="Ghost Guard/Ghost Guard.csproj" />
+        <entry key="Ghost Guard/Views/MainPanels/SetupWindow.axaml" value="Ghost Guard/Ghost Guard.csproj" />
+        <entry key="Ghost Guard/Views/MainPanels/UsageWindow.axaml" value="Ghost Guard/Ghost Guard.csproj" />
+        <entry key="Ghost Guard/Views/MainWindow.axaml" value="Ghost Guard/Ghost Guard.csproj" />
+        <entry key="Ghost Guard/Views/MainWindowStyles.axaml" value="Ghost Guard/Ghost Guard.csproj" />
+        <entry key="Ghost Guard/Views/SetupWindow.axaml" value="Ghost Guard/Ghost Guard.csproj" />
+        <entry key="Ghost Guard/Views/Styles.axaml" value="Ghost Guard/Ghost Guard.csproj" />
+        <entry key="Ghost Guard/Views/UsageWindow.axaml" value="Ghost Guard/Ghost Guard.csproj" />
+      </map>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,69 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:Ghost_Guard.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="667" d:DesignHeight="500"
+        x:Class="Ghost_Guard.Views.MainWindow"
+        SizeToContent="WidthAndHeight"
+        MaxHeight="575"
+        MaxWidth="766"
+        MinHeight="450"
+        MinWidth="600"
+        Title="Ghost Guard">
+    
+    <Window.Styles>
+        <Styles>
+            <Style Selector="Grid.Options">
+                <Setter Property="HorizontalAlignment" Value="Left"/>
+                <Setter Property="Background" Value="#25205f"/>
+            </Style>
+    
+            <Style Selector="Button.Option">
+                <Setter Property="Height" Value="40"/>
+                <Setter Property="Width" Value="120"/>
+                <Setter Property="VerticalContentAlignment" Value="Center"/>
+                <Setter Property="HorizontalContentAlignment" Value="Center"/>
+                <Setter Property="Background" Value="#089"/>
+                <Setter Property="Foreground" Value="White"/>
+                <Setter Property="FontWeight" Value="Bold"/>
+                <Setter Property="Margin" Value="10"/>
+            </Style>
+    
+            <Style Selector="Image.OptionIcon">
+                <Setter Property="Height" Value="20"/>
+                <Setter Property="Width" Value="20"/>
+                <Setter Property="HorizontalAlignment" Value="Center"/>
+                <Setter Property="Margin" Value="10"/>
+            </Style>
+            
+            <Style Selector="Image.Background">
+                <Setter Property="HorizontalAlignment" Value="Center"/>
+            </Style>
+            
+            <Style Selector="Border.MainBorder">
+                <Setter Property="BorderBrush" Value="Black" />
+                <Setter Property="BorderThickness" Value="3" />
+                <Setter Property="CornerRadius" Value="3" />
+            </Style>
+        </Styles>
+    </Window.Styles>
+    
+    <Grid ColumnDefinitions="*, 2*" Background="Black">
+        <Border Classes="MainBorder" Grid.Column="0">
+            <Grid HorizontalAlignment="Left" Background="#000C11" ColumnDefinitions="*, 3*" RowDefinitions="*, Auto, Auto, Auto, *">
+                <Image Classes="OptionIcon" Grid.Row="1" Grid.Column="0" Source="/Assets/Plus.png"/>
+                <Button Grid.Row="1" Grid.Column="1" Classes="Option" Click="OpenCreationWindow">Создать</Button>
+                <Image Classes="OptionIcon" Grid.Row="2" Grid.Column="0" Source="/Assets/Dictionary.png"/>
+                <Button Grid.Row="2" Grid.Column="1" Classes="Option" Click="OpenSetupWindow">Настроить</Button>
+                <Image Classes="OptionIcon" Grid.Row="3" Grid.Column="0" Source="/Assets/Key.png"/>
+                <Button Grid.Row="3" Grid.Column="1" Classes="Option" Click="OpenUsageWindow">Использовать</Button>
+            </Grid>
+        </Border>
+            
+        <Grid RowDefinitions="Auto, *" Grid.Column="1">
+            <Label Grid.Row="0" HorizontalAlignment="Center" FontWeight="Thin" Foreground="White">Ghost Guard</Label>
+            <Image HorizontalAlignment="Center" Grid.Row="1" Source="/Assets/Background.png"/>
+        </Grid>  
+    </Grid>
+</Window>
