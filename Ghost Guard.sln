@@ -2,7 +2,7 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ghost Guard", "Ghost Guard\Ghost Guard.csproj", "{615D0967-CFE8-4ECE-BF94-3350220F38AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ghost Guard Test", "Ghost Guard Test\Ghost Guard Test.csproj", "{926170D1-1C70-4766-9A51-1BA81016C04A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unit Tests", "Unit Tests\Unit Tests.csproj", "{926170D1-1C70-4766-9A51-1BA81016C04A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

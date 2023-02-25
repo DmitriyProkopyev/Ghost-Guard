@@ -52,7 +52,7 @@
         <Border Classes="MainBorder" Grid.Column="0">
             <Grid HorizontalAlignment="Left" Background="#000C11" ColumnDefinitions="2*, 3*" RowDefinitions="*, Auto, Auto, *">
                 <Image Classes="OptionIcon" Grid.Row="1" Grid.Column="0" Source="/Assets/Screen.png"/>
-                <Button Grid.Row="1" Grid.Column="1" Classes="Option" Click="ApplyDeviceToken">Устройство</Button>
+                <Button Grid.Row="1" Grid.Column="1" Classes="Option" Click="ApplyDeviceToken">Device</Button>
                 <Image Classes="OptionIcon" Grid.Row="2" Grid.Column="0" Source="/Assets/Three_Parts.png"/>
                 <Button Grid.Row="2" Grid.Column="1" Classes="Option" Click="ApplyUsbToken">USB</Button>
             </Grid>

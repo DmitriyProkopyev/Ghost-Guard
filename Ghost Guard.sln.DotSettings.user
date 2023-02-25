@@ -1,10 +1,32 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
 	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=615D0967_002DCFE8_002D4ECE_002DBF94_002D3350220F38AB_002Fd_003AViews_002Ff_003AMainWindow_002Eaxaml_002Fz_003A2_002D0/@EntryIndexedValue">ForceIncluded</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=93e2c869_002D9010_002D4647_002Da42b_002D3d3313de7ba5/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="PasswordProvider_CreateThenGet" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=93e2c869_002D9010_002D4647_002Da42b_002D3d3313de7ba5/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="PasswordProvider_CreateThenGet" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::926170D1-1C70-4766-9A51-1BA81016C04A::net6.0::Ghost_Guard_Test.Tests.ApplicationContainerTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=a7d315b6_002D5722_002D429c_002Da068_002Daafd3a8a37c2/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Legit" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;xUnit::926170D1-1C70-4766-9A51-1BA81016C04A::net6.0::Ghost_Guard_Test.Tests.ApplicationContainerTests.Legit&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::926170D1-1C70-4766-9A51-1BA81016C04A::net6.0::Ghost_Guard_Test.Tests.ApplicationContainerTests.Gradation&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::926170D1-1C70-4766-9A51-1BA81016C04A::net6.0::Ghost_Guard_Test.Tests.ApplicationContainerTests.MissingKey&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::926170D1-1C70-4766-9A51-1BA81016C04A::net6.0::Ghost_Guard_Test.Tests.CalculationsTests.AesTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::926170D1-1C70-4766-9A51-1BA81016C04A::net6.0::Ghost_Guard_Test.Tests.CalculationsTests.MemoryTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::926170D1-1C70-4766-9A51-1BA81016C04A::net6.0::Ghost_Guard_Test.Tests.CalculationsTests.DynamicHashTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::926170D1-1C70-4766-9A51-1BA81016C04A::net6.0::Ghost_Guard_Test.Tests.CalculationsTests.HashIndexTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::926170D1-1C70-4766-9A51-1BA81016C04A::net6.0::Ghost_Guard_Test.Tests.ExtensionsTests.BytesMatchingTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::926170D1-1C70-4766-9A51-1BA81016C04A::net6.0::Ghost_Guard_Test.Tests.HashKeyPresenterTests.HashKeyPresenter_Empty&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::926170D1-1C70-4766-9A51-1BA81016C04A::net6.0::Ghost_Guard_Test.Tests.HashKeyPresenterTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::926170D1-1C70-4766-9A51-1BA81016C04A::net6.0::Ghost_Guard_Test.Tests.KeySystemsTests.HashKeyValidatorTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::926170D1-1C70-4766-9A51-1BA81016C04A::net6.0::Ghost_Guard_Test.Tests.KeySystemsTests.KeyPartTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::926170D1-1C70-4766-9A51-1BA81016C04A::net6.0::Ghost_Guard_Test.Tests.KeySystemsTests.VersionsProviderTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::926170D1-1C70-4766-9A51-1BA81016C04A::net6.0::Ghost_Guard_Test.Tests.PasswordProviderTests.PasswordProvider_CreateThenGet&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::926170D1-1C70-4766-9A51-1BA81016C04A::net6.0::Ghost_Guard_Test.Tests.PasswordProviderTests.PasswordProvider_WriteThenGet&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::926170D1-1C70-4766-9A51-1BA81016C04A::net6.0::Ghost_Guard_Test.Tests.PasswordProviderTests.PasswordProvider_Other&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::926170D1-1C70-4766-9A51-1BA81016C04A::net6.0::Ghost_Guard_Test.Tests.SerializationTests.SimpleFormattersTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::926170D1-1C70-4766-9A51-1BA81016C04A::net6.0::Ghost_Guard_Test.Tests.SerializationTests.AesFormatterTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::926170D1-1C70-4766-9A51-1BA81016C04A::net6.0::Ghost_Guard_Test.Tests.SerializationTests.BinaryFormatterTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::926170D1-1C70-4766-9A51-1BA81016C04A::net6.0::Ghost_Guard_Test.Tests.SerializationTests.VersionsFormatterTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::926170D1-1C70-4766-9A51-1BA81016C04A::net6.0::Ghost_Guard_Test.Tests.SerializationTests.FileAdapterTest&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
 	

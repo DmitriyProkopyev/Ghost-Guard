@@ -21,22 +21,22 @@ public class ApplicationContainer
     public event Action DataTaken; 
     public event Action ExecutionCompleted;
 
-    public ApplicationContainer()
+    public ApplicationContainer(IClipboard? clipboard = null)
     {
         _cleaner = DI.Container.GetInstance<IMemoryCleaner>();
         _provider = DI.Container.GetInstance<PasswordProvider>();
 
         DI.Container.GetInstance<OsAdapter>().Setup(ExitImmediately);
-        _clipboard = Avalonia.Application.Current!.Clipboard!;
-        
+        _clipboard = Avalonia.Application.Current == null ? clipboard : Avalonia.Application.Current.Clipboard;
+
         _hash = new DynamicHash();
         _result = string.Empty;
     }
 
-    public void GetPassword()
+    public async void GetPassword()
     {
         _result = _provider.GetPassword(_hash);
-        _clipboard.SetTextAsync(_result);
+        await _clipboard.SetTextAsync(_result);
         Exit(5);
     }
 

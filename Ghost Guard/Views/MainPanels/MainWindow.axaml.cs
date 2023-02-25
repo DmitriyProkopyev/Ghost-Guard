@@ -1,6 +1,8 @@
 using System.ComponentModel;
+using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Interactivity;
+using Avalonia.Markup.Xaml;
 using Ghost_Guard.Models.Application;
 using Ghost_Guard.ViewModels;
 
@@ -14,6 +16,10 @@ public partial class MainWindow : Window
     {
         InitializeComponent();
         
+#if DEBUG
+        this.AttachDevTools();
+#endif
+        
         string path = "k3.dat";
         var root = new Root();
         _application = root.Configure(path);
@@ -23,6 +29,8 @@ public partial class MainWindow : Window
         _application.ExecutionCompleted += Exit;
         Closing += OnClosing;
     }
+    
+    private void InitializeComponent() => AvaloniaXamlLoader.Load(this);
 
     public void OpenCreationWindow(object? sender, RoutedEventArgs routedEventArgs)
     {

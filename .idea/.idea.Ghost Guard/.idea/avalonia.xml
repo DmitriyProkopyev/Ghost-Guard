@@ -9,6 +9,7 @@
         <entry key="Ghost Guard/Views/Input/PasswordInputPanel.axaml" value="Ghost Guard/Ghost Guard.csproj" />
         <entry key="Ghost Guard/Views/InputPanel.axaml" value="Ghost Guard/Ghost Guard.csproj" />
         <entry key="Ghost Guard/Views/MainPanels/CreationWindow.axaml" value="Ghost Guard/Ghost Guard.csproj" />
+        <entry key="Ghost Guard/Views/MainPanels/LoginWindow.axaml" value="Ghost Guard/Ghost Guard.csproj" />
         <entry key="Ghost Guard/Views/MainPanels/MainWindow.axaml" value="Ghost Guard/Ghost Guard.csproj" />
         <entry key="Ghost Guard/Views/MainPanels/SetupWindow.axaml" value="Ghost Guard/Ghost Guard.csproj" />
         <entry key="Ghost Guard/Views/MainPanels/UsageWindow.axaml" value="Ghost Guard/Ghost Guard.csproj" />

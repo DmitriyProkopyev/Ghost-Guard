@@ -6,7 +6,6 @@ namespace Ghost_Guard.Models.Application;
 public class VersionsProvider : IVersionsProvider
 {
     private readonly Dictionary<HashIndex, int> _data;
-
     private readonly IFileAdapter<KeyValuePair<HashIndex, int>> _adapter;
 
     public VersionsProvider()

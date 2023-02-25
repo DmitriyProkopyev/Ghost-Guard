@@ -18,8 +18,8 @@ public class KeyPartsProvider<TKey>
             if (_initialized) 
                 return _indexedKeys;
             
-            foreach (var pair in _adapter.Read())
-                _indexedKeys.Add(pair.Key, pair.Value);
+            //foreach (var pair in _adapter.Read())
+                //_indexedKeys.Add(pair.Key, pair.Value);
 
             _initialized = true;
             return _indexedKeys;
@@ -36,7 +36,13 @@ public class KeyPartsProvider<TKey>
         _initialized = false;
     }
 
-    public bool Contains(HashIndex hashIndex) => _indexedKeys.ContainsKey(hashIndex);
+    public bool Contains(HashIndex hashIndex)
+    {
+        if (hashIndex is null)
+            return false;
+        
+        return _indexedKeys.ContainsKey(hashIndex);
+    }
 
     public TKey TakeKey(HashIndex hashIndex)
     {

@@ -52,11 +52,11 @@
         <Border Classes="MainBorder" Grid.Column="0">
             <Grid HorizontalAlignment="Left" Background="#000C11" ColumnDefinitions="2*, 3*" RowDefinitions="*, Auto, Auto, Auto, *">
                 <Image Classes="OptionIcon" Grid.Row="1" Grid.Column="0" Source="/Assets/Graph.png"/>
-                <Button Grid.Row="1" Grid.Column="1" Classes="Option" Click="GetPassword">Получить</Button>
+                <Button Grid.Row="1" Grid.Column="1" Classes="Option" Click="GetPassword">Get</Button>
                 <Image Classes="OptionIcon" Grid.Row="2" Grid.Column="0" Source="/Assets/Left_Arrow.png"/>
-                <Button Grid.Row="2" Grid.Column="1" Classes="Option" Click="UpgradePassword">Повысить</Button>
+                <Button Grid.Row="2" Grid.Column="1" Classes="Option" Click="UpgradePassword">Upgrade</Button>
                 <Image Classes="OptionIcon" Grid.Row="3" Grid.Column="0" Source="/Assets/Right_Arrow.png"/>
-                <Button Grid.Row="3" Grid.Column="1" Classes="Option" Click="DowngradePassword">Понизить</Button>
+                <Button Grid.Row="3" Grid.Column="1" Classes="Option" Click="DowngradePassword">Downgrade</Button>
             </Grid>
         </Border>
             

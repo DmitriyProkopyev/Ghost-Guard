@@ -1,0 +1,66 @@
+﻿<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="Ghost_Guard.Views.LoginWindow"
+        SizeToContent="WidthAndHeight"
+        MaxHeight="575"
+        MaxWidth="766"
+        MinHeight="450"
+        MinWidth="600"
+        Title="Login">
+    
+    <Window.Styles>
+        <Styles>
+            <Style Selector="Button.Option">
+                <Setter Property="Height" Value="50"/>
+                <Setter Property="Width" Value="150"/>
+                <Setter Property="VerticalContentAlignment" Value="Center"/>
+                <Setter Property="HorizontalContentAlignment" Value="Center"/>
+                <Setter Property="Background" Value="#089"/>
+                <Setter Property="Foreground" Value="White"/>
+                <Setter Property="FontWeight" Value="Bold"/>
+                <Setter Property="Margin" Value="10"/>
+                <Setter Property="FontSize" Value="16"/>
+            </Style>
+            <Style Selector="Label.Title">
+                <Setter Property="Height" Value="100"/>
+                <Setter Property="Width" Value="300"/>
+                <Setter Property="VerticalContentAlignment" Value="Center"/>
+                <Setter Property="HorizontalContentAlignment" Value="Center"/>
+                <Setter Property="Foreground" Value="White"/>
+                <Setter Property="FontWeight" Value="Thin"/>
+                <Setter Property="FontSize" Value="20"/>
+            </Style>
+            <Style Selector="Border.ForButtons">
+                <Setter Property="Width" Value="155"/>
+                <Setter Property="Height" Value="55"/>
+                <Setter Property="CornerRadius" Value="5"/>
+                <Setter Property="HorizontalAlignment" Value="Center"/>
+                <Setter Property="VerticalAlignment" Value="Center"/>
+                <Setter Property="Background" Value="#07f"/>
+            </Style>
+            <Style Selector="Label.Title">
+                <Setter Property="Height" Value="100"/>
+                <Setter Property="Width" Value="300"/>
+                <Setter Property="VerticalContentAlignment" Value="Center"/>
+                <Setter Property="HorizontalContentAlignment" Value="Center"/>
+                <Setter Property="Foreground" Value="White"/>
+                <Setter Property="FontWeight" Value="Thin"/>
+                <Setter Property="FontSize" Value="20"/>
+            </Style>
+        </Styles>
+    </Window.Styles>
+    
+    <Grid ColumnDefinitions="*, *" RowDefinitions="*, *, *, *, *" Background="#000C11">
+        <Label Grid.Row="1" Grid.Column="0" Classes="Title">Новый пользователь</Label>
+        <Label Grid.Row="1" Grid.Column="1" Classes="Title">Существующий пользователь</Label>
+        <Border Grid.Column="0" Grid.Row="2" Classes="ForButtons">
+            <Button Classes="Option" HorizontalAlignment="Center" Click="Template">Создать</Button>
+        </Border>
+        <Border Grid.Column="1" Grid.Row="2" Classes="ForButtons">
+            <Button Classes="Option" HorizontalAlignment="Center" Click="Template">Войти</Button>
+        </Border>
+    </Grid>
+</Window>

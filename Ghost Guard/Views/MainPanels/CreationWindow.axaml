@@ -52,11 +52,11 @@
         <Border Classes="MainBorder" Grid.Column="0">
             <Grid HorizontalAlignment="Left" Background="#000C11" ColumnDefinitions="2*, 3*" RowDefinitions="*, Auto, Auto, Auto, *">
                 <Image Classes="OptionIcon" Grid.Row="1" Grid.Column="0" Source="/Assets/Key.png"/>
-                <Button Grid.Row="1" Grid.Column="1" Classes="Option" Click="CreateHashKey">Хеш ключ</Button>
+                <Button Grid.Row="1" Grid.Column="1" Classes="Option" Click="CreateHashKey">Hash Key</Button>
                 <Image Classes="OptionIcon" Grid.Row="2" Grid.Column="0" Source="/Assets/Monitor.png"/>
-                <Button Grid.Row="2" Grid.Column="1" Classes="Option" Click="CreateDeviceToken">Токен уст.</Button>
+                <Button Grid.Row="2" Grid.Column="1" Classes="Option" Click="CreateDeviceToken">Device Token</Button>
                 <Image Classes="OptionIcon" Grid.Row="3" Grid.Column="0" Source="/Assets/Suitcase.png"/>
-                <Button Grid.Row="3" Grid.Column="1" Classes="Option" Content="Токен usb" Click="CreateUsbToken"/>
+                <Button Grid.Row="3" Grid.Column="1" Classes="Option" Content="Usb Token" Click="CreateUsbToken"/>
             </Grid>
         </Border>
             
