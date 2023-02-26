@@ -1,5 +1,5 @@
 <p align="center">
-      <a href="https://ibb.co/yV4KJD0"><img src="https://i.ibb.co/d7mXySB/233.png" alt="233" border="0"></a>
+      <a href="https://ibb.co/jrgyRLh"><img src="https://i.ibb.co/0GhCtfq/Ghost-Guard-Logo.png" alt="Ghost-Guard-Logo" width="500"></a>
 </p>
 
 <p align="center">
